@@ -157,7 +157,6 @@ export default function Contact() {
                     >
                         {[
                             "/Img_Twl.jpg",
-                            "/Img_Two.webp",
                             "/Img_Nine.webp",
                             "/Img_Five.webp",
                             "/Img_Ele.jpg",
