@@ -26,7 +26,7 @@ export default function Contact() {
                     <img
                         src="/KALogo.webp"
                         alt="Kalāsanskar Art Studio Logo"
-                        className="h-14 w-14 object-contain"
+                        className="h-34 w-34 object-contain"
                     />
                     <h1 className="text-2xl sm:text-4xl font-bold tracking-widest"
                         style={{ fontFamily: 'var(--font-heading)' }}>
@@ -156,21 +156,22 @@ export default function Contact() {
                         }}
                     >
                         {[
+                            "/Img_Twl.jpg",
                             "/Img_Two.webp",
-                            "/Img_one.webp",
                             "/Img_Nine.webp",
-                            "/Img_Four.webp",
                             "/Img_Five.webp",
-                            "/Img_Six.webp",
+                            "/Img_Ele.jpg",
+                            "/Img_Six.jpg",
                             "/Img_Seven.webp",
                             "/Img_Eight.webp",
+                            "/Img_Ten.jpg"
                         ].map((src, index) => (
                             <SwiperSlide key={index}>
                                 <div className="rounded-xl overflow-hidden shadow-md">
                                     <img
                                         src={src}
                                         alt={`Art ${index + 1}`}
-                                        className="w-full h-64 object-cover"
+                                        className="w-full h-80 object-cover"
                                     />
                                 </div>
                             </SwiperSlide>
